@@ -1,0 +1,129 @@
+body{
+  background-color: #EBEBEB;
+  font-family: 'Nanum Gothic', sans-serif;
+  color: #7d7d7d;
+  font-size: 16px;
+  line-height: 20px;
+  margin:0;
+  padding:0;
+}
+
+h1, h2, h3{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+}
+
+h1{
+  font-size:2em;
+  color: #DD5555;
+}
+
+h2{
+  font-size:1.2em;
+}
+
+h3{
+  font-size:1.1em;
+}
+
+img{
+  width: 200px;
+}
+
+a{
+  text-decoration: none;
+  color: #7d7d7d;
+}
+
+a:hover{
+  color: #e64242;
+}
+
+div{
+  width:600px;
+  margin: 20px auto;
+  padding:30px;
+}
+
+.box-light-grey{
+  background-color: rgb(250,250,250);
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-justify{
+  text-align: justify;
+}
+
+.border_box{
+  border:1px solid rgb(240,240,240);
+  box-shadow: 2px 2px 3px rgb(0,0,0,0.1);
+  border-radius:5px;
+}
+
+.inline-list {
+  padding: 0;
+}
+
+.inline-list li{
+  display: inline-block;
+  padding:0 20px;
+}
+.inline-list li i{
+  font-size: 30px;
+}
+
+.btn-red{
+  background-color: #DD5555;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top:10px;
+  line-height: 30px;
+}
+
+.btn-red:hover{
+  background-color: #e64242;
+  color: white;
+}
+
+.img_circle{
+  border-radius: 50%;
+  border: 2px solid rgb(240,240,240);
+}
+
+table{
+  margin-top:50px;
+}
+
+tr{
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+td{
+  padding:5px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  div {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  div {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  div {
+    width: 300px;
+  }
+}
